@@ -155,7 +155,7 @@ font-size: 16px;
     padding-right: 10px;
 }
 .ending{
-     position: relative;
+    position: relative;
     display: flex;
     margin: auto;
     width: 90%;
@@ -169,15 +169,59 @@ font-size: 16px;
     justify-content: space-between;
 }
 .banner{
-    width: 50%;
+    width: 48%;
     height: 400px;
-    background-image: url(image1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
 }
-.textin p{
-    position: relative;
-    
+.image1{
+    background-image: url(image1.png);
+}
+.image2{
+    background-image: url(image2.png);
+}
+.textin{
+    position: absolute;
+    bottom: 0;
+    margin-left: 10%;
+    width: auto;
+min-width: fit-content;
+min-height: 60.00px;
+color: rgba(255, 255, 255, 1.00);
+font-family: Lato;
+font-weight: 700;
+padding: 0px 0px 0px 0px;
+text-align: left;
+font-size: 50px;
+}
+.twoimg{
+    display: flex;
+    justify-content: space-between;
+
+}
+.treeimg{
+    display: flex;
+    justify-content: space-between;
+}
+.plate{
+   width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+
+}
+.image3{
+    background-image: url(image3.png);
+}
+.image4{
+    background-image: url(image4.png);
+}
+.image5{
+    background-image: url(image5.png);
 }
